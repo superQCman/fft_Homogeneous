@@ -117,7 +117,7 @@ int main(int argc, char **argv) {
     int idX = atoi(argv[1]);
     int idY = atoi(argv[2]);
     // 输入数据
-    const size_t N = std::pow(2,30);  // 输入长度必须是 2 的幂
+    const size_t N = std::pow(2,20);  // 数据量为2^30
     CArray data(N);
 
     // 初始化数据

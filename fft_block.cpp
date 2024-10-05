@@ -156,7 +156,7 @@ int main(int argc, char **argv) {
     int idX = atoi(argv[1]);
     int idY = atoi(argv[2]);
     // 输入数据
-    const size_t N = std::pow(2,30)/std::pow(2,idX+1);  // 数据量
+    const size_t N = std::pow(2,20)/std::pow(2,idX+1);  // 数据量
     CArray data(N);
 
     // 接收从 fft_main.cpp 发送过来的数据
